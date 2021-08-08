@@ -1,8 +1,9 @@
-function Todo({ id, children }) {
+function Todo({ id, children, onRemove }) {
   return (
     <div className="Todo">
       <h1>
-        MY TDDO ID: {id} {children}
+        <button onClick={() => onRemove(id)}>X</button> MY TDDO ID: {id}{" "}
+        {children}
       </h1>
     </div>
   );
