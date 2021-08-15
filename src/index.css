@@ -229,6 +229,11 @@ label {
   text-align: center;
 }
 
+a,
+a:visited {
+  color: rgb(250, 250, 122);
+}
+
 @media (max-width: 920px) {
   .product-card {
     flex: 1 21%;
